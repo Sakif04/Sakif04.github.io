@@ -23,7 +23,10 @@
 .portrait img{
     width: inherit;
 }
-}
+.icons a:hover {
+      color: #eece1a;
+      transition: all 0.5s ease-out;}
+
 .menu {
   position: fixed;
   top: 0;
