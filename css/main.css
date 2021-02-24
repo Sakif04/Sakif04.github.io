@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #eece1a;
+    background: #551704d0;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -24,9 +24,9 @@
     width: inherit;
 }
 .icons a:hover {
-      color: #eece1a;
+      color: #551704d0;
       transition: all 0.5s ease-out;}
-
+.icons {justify-self: start;justify-items: start;justify-content: start;}
 .menu {
   position: fixed;
   top: 0;
@@ -44,7 +44,7 @@
     float: left;
     width: 50%;
     border-radius:10%;
-    border:0.1em solid #eece1a;
+    border:0.1em solid #551704d0;
     height: 85vh;
     overflow: hidden; }
   .menu-nav {
@@ -67,14 +67,14 @@
       height: 250px;
       border-radius: 10%;
       overflow: hidden;
-      border: solid 3px #eece1a; }
+      border: solid 3px #551704d0; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #eece1a; }
+      color: #551704d0; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -107,7 +107,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
+  background:  rgba(9, 74, 150, 0.9);;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -125,7 +125,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.9); }
+      background: rgba(9, 74, 150, 0.9); }
 
 h1,
 h2,
@@ -153,17 +153,20 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #551704d0; }
 
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
-  main .icons {
+  main .icons {text-align: start;
+    display: flex;
+    justify-items: self-start;
+    justify-self: start;
     margin-top: 1rem; }
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #eece1a;
+        color:  #551704d0;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -180,7 +183,7 @@ main {
     margin: auto;
     max-width: 100%;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #551704d0 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -193,7 +196,7 @@ main {
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
-    border-bottom: #eece1a 5px solid; }
+    border-bottom: #551704d0 5px solid; }
 
 .projects {
   display: grid;
@@ -204,7 +207,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #eece1a;
+      border-color: #551704d0;
       transition: all 0.5s ease-out; }
 .icons a{
 width:25em;  
@@ -227,7 +230,7 @@ width:25em;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #eece1a;
+      background: #551704d0;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -238,7 +241,7 @@ width:25em;
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eece1a;
+    background: #551704d0;
     color: #000; }
 
 .btn-dark {
